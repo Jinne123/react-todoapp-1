@@ -1,5 +1,5 @@
 .app {
-  background: #209cee;
+  background-image: linear-gradient(to bottom right, #209cee, rgb(0, 255, 179));
   height: 100vh;
   padding: 30px;
 }
@@ -9,6 +9,8 @@
   border-radius: 4px;
   max-width: 400px;
   padding: 5px;
+  margin-left: 34%;
+  margin-top: 5%;
 }
 
 .todo {

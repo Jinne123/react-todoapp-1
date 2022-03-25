@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import "./App.css";
 import TodoForm from './components/todoForm/TodoForm';
 import Todo from './components/todo/Todo';
+import Title from './components/title/Title';
 
 
 const App = () => {
@@ -40,6 +41,7 @@ const App = () => {
   return (
     <div className="app">
       <div className="todo-list">
+      <Title />
         {todos.map((todo, index) => (
           <Todo
             key={index}
