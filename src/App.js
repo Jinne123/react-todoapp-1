@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import axios from "axios";
 import "./App.css";
 
 const App = () => {
@@ -47,10 +48,11 @@ const App = () => {
   }
 
   const componentDidMount = () => {
-    fetch("https://pokeapi.co/api/v2/pokemon/235")
-    .then(response => response.json())
+    axios.get("https://pokeapi.co/api/v2/pokemon/235/")
+    // fetch("https://pokeapi.co/api/v2/pokemon/235")
+    // .then(response => response.json())
     .then(data => {
-      setPokemaan(data);
+      setPokemaan(data.data);
     });
     console.log(pokemaan);
   }
