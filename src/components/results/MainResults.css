@@ -1,0 +1,84 @@
+.results2 {
+  background-image: linear-gradient(to bottom right, #209cee, rgb(0, 255, 179));
+  height: 91.7vh;
+  padding: 30px;
+}
+
+.todo-list {
+  background: #e8e8e8;
+  border-radius: 4px;
+  max-width: 400px;
+  padding: 5px;
+  margin-left: 34%;
+  margin-top: 5%;
+}
+
+.todo {
+  align-items: center;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding: 3px 10px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+.pokemon_front {
+  position: absolute;
+  margin-left: 90px;
+  margin-top: 30px;
+  width: 120px;
+  height: 120px;
+}
+.pokemon_back {
+  position: absolute;
+  margin-left: -110px;
+  margin-top: 100px;
+  width: 120px;
+  height: 120px;
+}
+.statFront {
+  position: absolute;
+  margin-left: -80px;
+  width: 200px;
+  height: 60px;
+}
+.statBack {
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  margin-top: 143px;
+  margin-left: 80px;
+}
+
+.pokemon_name_front {
+  position: absolute;
+  margin-left: -270px;
+  margin-top: 10px;
+}
+.pokemon_level_front {
+  position: absolute;
+  margin-left: -10px;
+  margin-top: 10px;
+}
+.pokemon_name_back {
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 152px;
+}
+.pokemon_level_back {
+  position: absolute;
+  margin-left: 290px;
+  margin-top: 152px;
+}
+.pokemon_hp {
+  position: absolute;
+  margin-left: 225px;
+  margin-top: 180px;
+}
