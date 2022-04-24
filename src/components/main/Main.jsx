@@ -95,7 +95,7 @@ const Main = () => {
   const html2 = (
     <div>
       {/* <Link to="/Results"> */}
-      <Link to="/Results">
+      <Link to={"/Results/" + pokemaan?.id + "/" + pokemaan2?.id}>
         <input type="submit" value="generate results"></input>
       </Link>
 
