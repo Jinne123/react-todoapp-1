@@ -40,14 +40,10 @@ const HtmlResults2 = () => {
         <input type="submit" value="New battle"></input>
       </Link>
 
-      <h1>{id}</h1>
-      <h1>{id2}</h1>
-
       <form onSubmit={(e) => componentDidMount2(e)}>
         <input type="submit" value="Show results"></input>
       </form>
 
-      {pokemaan?.name}
       {checked ? winnerhtml : ""}
       <img src={winner?.sprites?.front_default} alt="" />
     </div>
